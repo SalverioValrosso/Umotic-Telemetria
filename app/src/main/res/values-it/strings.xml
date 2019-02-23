@@ -1,0 +1,1832 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome">Benvenuto in Umotic!</string>
+    <string name="welcome2">Per iniziare, aggiungi un\'auto.</string>
+    <string name="realtime">Analisi in tempo reale</string>
+    <string name="got_it">Ok</string>
+    <string name="hello">Ciao</string>
+    <string name="welcomeActivityTitle">Benvenuto</string>
+    <string name="updateActivityTitle">Aggiorna auto</string>
+    <string name="listCarActivityTitle">Lista auto</string>
+    <string name="edit_car">Dati auto aggiornati</string>
+    <string name="edit_not_car">Dati auto non aggiornati</string>
+    <string name="app_name">Umotic</string>
+    <string name="action_menu">Menu</string>
+    <string name="generalSettings">Generale</string>
+    <string name="notificationSettings">Notifiche</string>
+    <string name="data_deleted">Dati eliminati!</string>
+    <string name="data_deleted_failed">Dati non eliminati!</string>
+    <string name="data_delete">Cancella dati auto</string>
+    <string name="delete_Car">Sei sicuro di voler eliminare definitavamente i dati associati a questa macchina?</string>
+    <string name="action_settings">Impostazioni</string>
+    <string name="select_car">Gestisci auto</string>
+    <string name="profile">Profilo</string>
+    <string name="update_profile">Modifica le tua informazioni personali</string>
+    <string name="update_commit">Applica</string>
+    <string name="update">Modifica</string>
+    <string name="createCarBtn">Aggiungi Auto</string>
+    <string name="carPlate">Targa</string>
+    <string name="carNameCustom">Nome personalizzato</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+    <string name="logout_app">Sicuro di voler chiudere l\'app</string>
+    <string name="internet_connection">Nessuna connessione Internet</string>
+    <string name="enter_mail">Inserisci la tua Email</string>
+    <string name="send_mail">Invia Email</string>
+    <string name="sending_mail">Invio Email in corso&#8230;</string>
+    <string name="sent_mail">Messaggio inviato</string>
+    <string name="object_mail">Ripristino Password app UMotic</string>
+    <string name="carsActivityTitle">Auto</string>
+    <string name="realTime">Analisi in tempo reale</string>
+    <string name="tire_repairer">Gommista</string>
+    <string name="auto_repair">Officina autorizzata</string>
+    <string name="mechanic">Meccanico</string>
+    <string name="fuel_dispenser">Distributore di carburante</string>
+    <string name="username">Nome utente</string>
+    <string name="usernameOrEmail">Nome utente o Email</string>
+    <string name="email">Email</string>
+    <string name="CF">Codice fiscale</string>
+    <string name="password">Password</string>
+    <string name="re_password">Reinserisci passwrod</string>
+    <string name="birthday">Data di nascita</string>
+    <string name="login">Accedi</string>
+    <string name="register">Registrati</string>
+    <string name="logout">Disconnetti</string>
+    <string name="notRegisterYet">Non sei registrato?</string>
+    <string name="forgotPassword"><u>Password dimenticata?</u></string>
+    <string name="createAccount">Non hai un account? <u>Creane uno</u></string>
+    <string name="alreadyAMember">Hai già un account? <u>Accedi</u></string>
+    <string name="name">Nome</string>
+    <string name="surname">Cognome</string>
+    <string name="nameTag">Nome:</string>
+    <string name="surnameTag">Cognome:</string>
+    <string name="emailTag">Email:</string>
+    <string name="CFTag">Codice Fiscale:</string>
+    <string name="passwordTag">Password:</string>
+    <string name="re_passwordTag">Conferma password:</string>
+    <string name="usernameTag">Nome Utente:</string>
+    <string name="birthdayTag">Data di nascita:</string>
+    <string name="remindMe">Ricordami</string>
+    <string name="creating_account">Creazione account&#8230;</string>
+    <string name="btn_create_account">Crea Account</string>
+    <string name="registration_failed">Registrazione fallita</string>
+    <string name="three_character">tra 3 e 15 caratteri</string>
+    <string name="three_forty_character">tra 3 e 40 caratteri</string>
+    <string name="three_twentyfiv_character">tra 3 e 25 caratteri</string>
+    <string name="valid_email">inserisci un indirizzo email valido</string>
+    <string name="four_twentyfive_character">tra 4 e 25 caratteri alfanumerici</string>
+    <string name="valid_password">Le password non corrispondono</string>
+    <string name="valid_fiscal_code">Codice fiscale non valido o già esistente.</string>
+    <string name="valid_login">Nome Utente e/o password non validi</string>
+    <string name="enter_login_account">Accesso in corso&#8230;</string>
+    <string name="valid_username">Nome utente non valido</string>
+    <string name="control_Username_false">Nome utente già esistente</string>
+    <string name="control_Email_false">Email già registrata</string>
+    <string name="control_CF_false">Codice fiscale già registrato</string>
+    <string name="control_Car_false">Targa già registrata</string>
+    <string name="apply">Applica</string>
+    <string name="register_do">Registrazione avvenuta con successo</string>
+    <string name="register_not_do">Registrazione fallita</string>
+    <string name="profile_update">Dati del profilo aggiornati</string>
+    <string name="profile_not_update">Errore nell\'aggiornamento dei dati</string>
+    <string name="updating_account">Modifica account&#8230;</string>
+    <string name="register_account">Registrazione account&#8230;</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="search_bluetooth">Ricerca dispositivo Obd</string>
+    <string name="not_connected">Non sei connesso ad un dispositivo</string>
+    <string name="bt_not_enabled_leaving">"Il Bluetooth non è stato abilitato. "</string>
+    <string name="title_connecting">Connessione&#8230;</string>
+    <string name="title_connected_to">Connesso a</string>
+    <string name="title_not_connected">Non connesso</string>
+    <string name="disconect">Dispositivo disconnesso</string>
+    <string name="bt_not_available">Bluetooth non disponibile</string>
+    <string name="secure_connect">Connettiti</string>
+    <string name="scanning">Ricerca dispositivi&#8230;</string>
+    <string name="select_device">Seleziona un dispositivo da collegare</string>
+    <string name="none_paired">Nessun dispositivo accoppiato</string>
+    <string name="none_found">Nessun dispositivo trovato</string>
+    <string name="title_paired_devices">Dispositivi accoppiati</string>
+    <string name="title_other_devices">Altri dispositivi disponibili</string>
+    <string name="button_scan">Scansiona dispositivi</string>
+    <string name="car">Auto</string>
+    <string name="consumption">Consumi</string>
+    <string name="breaking_times">Tempi di frenata</string>
+    <string name="boost">Turbo</string>
+    <string name="wrongBrand">Devi selezionare una casa automobilistica!</string>
+    <string name="wrongModel">Devi selezionare un modello!</string>
+    <string name="emptyPass">Il campo password non può essere vuoto!</string>
+    <string name="wrongPass">Password non corretta</string>
+    <string name="nameTooLong">Nome troppo lungo</string>
+    <string name="licenseEmpty">La Targa non è corretta!</string>
+    <string name="carCreateFail">Aggiunta auto fallita!</string>
+    <string name="creatingCar">Aggiunta auto&#8230;</string>
+    <string name="deleteCar">Sei sicuro di voler elimiare definitivamente quest\'auto dalla lista?</string>
+    <string name="alertWarning">Attenzione!</string>
+    <string name="none_found_car">Nessuna auto registrata</string>
+    <string name="goReal">Vai alle analisi in tempo reale</string>
+    <string name="goNormal">Vai alle statistiche</string>
+    <string name="title_activity_settings">Impostazioni</string>
+    <string name="car_added">Auto aggiunta</string>
+    <string name="car_not_added">Errore aggiunta auto</string>
+    <string name="car_deleted">Auto eliminata</string>
+    <string name="updating_car">Modifica auto&#8230;</string>
+    <string name="car_alias">Nome personalizzato auto</string>
+    <string name="car_brand">Casa automobilistica</string>
+    <string name="car_model">Modello auto</string>
+    <string name="car_targa">Targa auto</string>
+    <string name="delete_last_car">La lista deve contenere almeno un\'auto.</string>
+    <string name="update_information">Modifica informazioni</string>
+    <string name="delete_your_car">Cancella auto</string>
+    <string name="select_this_car">Seleziona auto</string>
+    <string name="call_assistency">Chiama assistenza</string>
+    <string name="tow_truck">Carro Attrezzi</string>
+    <string name="aci">Aci</string>
+    <string name="search_maps">Cerca in google maps intorno a te</string>
+    <string name="mechanics">Meccanici</string>
+    <string name="authorized_workshops">Officine autorizzate</string>
+    <string name="tier_repairer">Gommisti</string>
+    <string name="gas_station">Distributori di carburante</string>
+    <string name="insert_your_email">Prego inserisci qui la tua email per ricevere la tua password</string>
+    <string name="example_email">tuaEmail@esempio.it</string>
+    <string name="pref_header_general">Generale</string>
+    <string name="profileActivityTitle">Profilo</string>
+    <string name="settingsActivityTitle">Impostazioni</string>
+    <string name="newCarActivityTitle">Aggiungi nuova auto</string>
+    <string name="homeActivityTitle">Home</string>
+    <string name="assistent">Assistente</string>
+    <string name="title_activity_assistent">Assistente personale</string>
+    <string name="speed">Velocità</string>
+    <string name="rpm">RPM</string>
+    <string name="partialDistance">Distanza parziale</string>
+    <string name="totalDistance">Distanza totale</string>
+    <string name="altitude">Altitudine</string>
+    <string name="engineTemp">Temperatura motore</string>
+    <string name="GPSposition">Posizione GPS</string>
+    <string name="milesPerHour">MPH</string>
+    <string name="kmPerHour">Km/h</string>
+    <string name="RPM">RPM x1000</string>
+    <string name="engineTempK">K</string>
+    <string name="engineTempC">°C</string>
+    <string name="distanceKm">Km</string>
+    <string name="distanceMiles">Miglia</string>
+    <string name="your_umotic_account">Umotic Account</string>
+    <string name="your_personal_assistent">Il tuo assistente auto personale</string>
+    <string name="welcome_umotic_car">Benvenuto in Umotic Car</string>
+    <string name="deny">Nega</string>
+    <string name="accept">Accetta</string>
+    <string name="termsPrivacy">Privacy</string>
+    <string name="appinfo">Info</string>
+    <string name="verInfo">Versione</string>
+    <string name="profileImgAlert">Potrai impostare la tua immagine del profilo nella finestra Profilo del menu laterale dalla home</string>
+    <string name="title_activity_maps">Mappa</string>
+    <string name="select_brand">Casa automobilistica</string>
+    <string name="select_model">Modello Auto</string>
+    <string name="managePermissions">Gestione permessi</string>
+    <string name="title_activity_side_menu">SideMenuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="sampleLambo">Lamborghini Aventator</string>
+    <string name="message_sign_out">Sei sicuro di voler uscire dal tuo account?</string>
+    <string name="title_sign_out">Vuoi uscire?</string>
+    <string name="forgotPassword_title">Password dimenticata</string>
+    <string name="back">Indietro</string>
+    <string name="send">Invia</string>
+    <string name="stop_sync">Vuoi interrompere il viaggio?</string>
+    <string name="exit_sync">Vuoi tornare alla home?</string>
+    <string name="stop_sync_btn">Concludi viaggio</string>
+    <string name="start_sync_btn">Comincia il viaggio</string>
+    <string name="device_lost">Connessione col device interrotta</string>
+    <string name="enable_connect">Disponibile per una connessione</string>
+    <string-array name="text_mail">
+        <item>Ciao\t</item>
+        <item>la password del tuo account:</item>
+        <item>, è:\t</item>
+        <item>Torna nell\'app Umotic ed effettua l\'accesso.\nCordiali saluti,\nUMotic corporation.</item>
+    </string-array>
+    <string name="permission_not_granted">Autorizzazione non concessa</string>
+    <string-array name="marcheAuto">
+        <item>Casa automobilistica</item>
+        <item>ABARTH</item>
+        <item>AC</item>
+        <item>AIXAM</item>
+        <item>ALFA ROMEO</item>
+        <item>ASTON MARTIN</item>
+        <item>AUDI</item>
+        <item>AUSTIN ROVER</item>
+        <item>AUTOBIANCHI</item>
+        <item>BELLIER</item>
+        <item>BENTLEY</item>
+        <item>BMW</item>
+        <item>BUGATTI</item>
+        <item>BUICK</item>
+        <item>CADILLAC</item>
+        <item>CASALINI</item>
+        <item>CHATENET</item>
+        <item>CHEVROLET</item>
+        <item>CHRYSLER</item>
+        <item>CITROEN</item>
+        <item>CORVETTE</item>
+        <item>DACIA</item>
+        <item>DAEWOO</item>
+        <item>DAF</item>
+        <item>DAIHATSU</item>
+        <item>DAIMLER</item>
+        <item>DE TOMASO</item>
+        <item>DODGE</item>
+        <item>DR</item>
+        <item>DS</item>
+        <item>FERRARI</item>
+        <item>FIAT</item>
+        <item>FISKER</item>
+        <item>FORD</item>
+        <item>GIOTTI VICTORIA</item>
+        <item>GREAT WALL MOTOR</item>
+        <item>HONDA</item>
+        <item>HUMMER</item>
+        <item>HYUNDAI</item>
+        <item>INFINITI</item>
+        <item>INNOCENTI</item>
+        <item>ISUZU</item>
+        <item>IVECO</item>
+        <item>JAGUAR</item>
+        <item>JEEP</item>
+        <item>KIA</item>
+        <item>LADA</item>
+        <item>LAMBORGHINI</item>
+        <item>LANCIA</item>
+        <item>LAND ROVER</item>
+        <item>LEXUS</item>
+        <item>LIGIER</item>
+        <item>LOTUS</item>
+        <item>MAHINDRA</item>
+        <item>MASERATI</item>
+        <item>MAYBACH</item>
+        <item>MAZDA</item>
+        <item>MCLAREN</item>
+        <item>MERCEDES</item>
+        <item>MG</item>
+        <item>MICROCAR</item>
+        <item>MINAUTO</item>
+        <item>MINI</item>
+        <item>MITSUBISHI</item>
+        <item>MOKE</item>
+        <item>MORGAN</item>
+        <item>MUSTANG</item>
+        <item>NISSAN</item>
+        <item>OPEL</item>
+        <item>PEUGEOT</item>
+        <item>PIAGGIO</item>
+        <item>PONTIAC</item>
+        <item>PORSCHE</item>
+        <item>RENAULT</item>
+        <item>ROLLS ROYCE</item>
+        <item>ROVER</item>
+        <item>SAAB</item>
+        <item>SANTANA</item>
+        <item>SEAT</item>
+        <item>SKODA</item>
+        <item>SMART</item>
+        <item>SSANGYONG</item>
+        <item>SUBARU</item>
+        <item>SUZUKI</item>
+        <item>TALBOT</item>
+        <item>TATA</item>
+        <item>TESLA</item>
+        <item>TOYOTA</item>
+        <item>UAZ</item>
+        <item>VEM</item>
+        <item>VOLKSWAGEN</item>
+        <item>VOLVO</item>
+        <item>Altre Case Automobilistiche</item>
+    </string-array>
+
+
+    <string-array name="abarth">
+        <item>Modello Auto</item>
+        <item>124 Spider</item>
+        <item>500</item>
+        <item>595</item>
+        <item>695</item>
+        <item>Grande Punto</item>
+        <item>Punto</item>
+        <item>Punto Evo</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="ac">
+        <item>Modello Auto</item>
+        <item>Cobra</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="aixam">
+        <item>Modello Auto</item>
+        <item>City</item>
+        <item>Coupé</item>
+        <item>Crossline</item>
+        <item>Crossover</item>
+        <item>GTO</item>
+        <item>Mega</item>
+        <item>400</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="alfa_romeo">
+        <item>Modello Auto</item>
+        <item>145</item>
+        <item>146</item>
+        <item>147</item>
+        <item>155</item>
+        <item>156</item>
+        <item>159</item>
+        <item>164</item>
+        <item>166</item>
+        <item>33</item>
+        <item>4C</item>
+        <item>75</item>
+        <item>Alfa 6</item>
+        <item>Alfa 90</item>
+        <item>Alfasud</item>
+        <item>Alfetta</item>
+        <item>Alfetta GT/GTV</item>
+        <item>Brera</item>
+        <item>Giulia</item>
+        <item>Giulietta</item>
+        <item>GT</item>
+        <item>Gtv/Spider</item>
+        <item>MiTo</item>
+        <item>Spider</item>
+        <item>Sprint</item>
+        <item>Stelvio</item>
+        <item>SZ/RZ</item>
+        <item>8c</item>
+        <item>Gtv</item>
+        <item>Sz</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="aston_martin">
+        <item>Modello Auto</item>
+        <item>DB</item>
+        <item>DB11</item>
+        <item>V12</item>
+        <item>V8 Vantage</item>
+        <item>Virage/V8/Vantage</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+
+    <string-array name="audi">
+        <item>Modello Auto</item>
+        <item>100/200/5000/V8</item>
+        <item>80/90/4000/Cabrio</item>
+        <item>A1</item>
+        <item>A2</item>
+        <item>A3</item>
+        <item>A3 Sportback e-tron</item>
+        <item>A4</item>
+        <item>A4 allroad</item>
+        <item>A5</item>
+        <item>A5 Coupé</item>
+        <item>A6</item>
+        <item>A6 allroad</item>
+        <item>A7</item>
+        <item>A8</item>
+        <item>Coupé/Quattro</item>
+        <item>Q2</item>
+        <item>Q3</item>
+        <item>Q5</item>
+        <item>Q7</item>
+        <item>R8</item>
+        <item>TT</item>
+        <item>Rsq3</item>
+        <item>100</item>
+        <item>200</item>
+        <item>80</item>
+        <item>90</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="austin_rover">
+        <item>Modello Auto</item>
+        <item>Mini</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="autobianchi">
+        <item>Modello Auto</item>
+        <item>A112</item>
+        <item>Y10</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="bellier">
+        <item>Modello Auto</item>
+        <item>B8</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="bentley">
+        <item>Modello Auto</item>
+        <item>Arnage</item>
+        <item>Continental</item>
+        <item>Flying Spur</item>
+        <item>Mulsanne</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="bmw">
+        <item>Modello Auto</item>
+        <item>i3</item>
+        <item>i8</item>
+        <item>Serie 1</item>
+        <item>Serie 2</item>
+        <item>Serie 2 Active Tourer</item>
+        <item>Serie 2 Gran Tourer</item>
+        <item>Serie 3</item>
+        <item>Serie 4</item>
+        <item>Serie 5</item>
+        <item>Serie 6</item>
+        <item>Serie 7</item>
+        <item>Serie 8</item>
+        <item>X1</item>
+        <item>X2</item>
+        <item>X3</item>
+        <item>X4</item>
+        <item>X5</item>
+        <item>X6</item>
+        <item>Z3</item>
+        <item>Z4</item>
+        <item>2002</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="bugatti">
+        <item>Modello Auto</item>
+        <item>Veyron</item>
+        <item>Chiron</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="buick">
+        <item>Modello Auto</item>
+        <item>Century</item>
+        <item>Electra</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+
+    <string-array name="cadillac">
+        <item>Modello Auto</item>
+        <item>ATS</item>
+        <item>CTS</item>
+        <item>Eldorado</item>
+        <item>Escalade</item>
+        <item>Seville</item>
+        <item>SRX</item>
+        <item>Seville</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="casalini">
+        <item>Modello Auto</item>
+        <item>M14</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="chatenet">
+        <item>Modello Auto</item>
+        <item>CH26</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="chevrolet">
+        <item>Modello Auto</item>
+        <item>Aveo</item>
+        <item>Camaro</item>
+        <item>Captiva</item>
+        <item>Corvette</item>
+        <item>Cruze</item>
+        <item>Kalos</item>
+        <item>Lacetti</item>
+        <item>Malibu</item>
+        <item>Matiz</item>
+        <item>Nubira</item>
+        <item>Orlando</item>
+        <item>Spark</item>
+        <item>Tacuma</item>
+        <item>Tahoe</item>
+        <item>Trax</item>
+        <item>Astro</item>
+        <item>Caprice</item>
+        <item>Chevy Van</item>
+        <item>El Camino</item>
+        <item>Express</item>
+        <item>G</item>
+        <item>Impala</item>
+        <item>K30</item>
+        <item>Silverado</item>
+        <item>Ssr</item>
+        <item>Suburban</item>
+        <item>Blazer</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="chrysler">
+        <item>Modello Auto</item>
+        <item>300 C</item>
+        <item>Crossfire</item>
+        <item>PT Cruiser</item>
+        <item>Sebring</item>
+        <item>Stratus</item>
+        <item>Viper</item>
+        <item>Voy/G.Voyager</item>
+        <item>Le Baron</item>
+        <item>Grand Voyager</item>
+        <item>Voyager</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="citroen">
+        <item>Modello Auto</item>
+        <item>2CV</item>
+        <item>Berlingo</item>
+        <item>C-Crosser</item>
+        <item>C-Elysée</item>
+        <item>C-Zero</item>
+        <item>C1</item>
+        <item>C2</item>
+        <item>C3</item>
+        <item>C3 Aircross</item>
+        <item>C3 Picasso</item>
+        <item>C4</item>
+        <item>C4 Aircross</item>
+        <item>C4 Cactus</item>
+        <item>C4 Picasso</item>
+        <item>C5</item>
+        <item>C6</item>
+        <item>C8</item>
+        <item>CX</item>
+        <item>E-Mehari</item>
+        <item>Evasion</item>
+        <item>Grand C4 Picasso</item>
+        <item>GS/GSA</item>
+        <item>Jumper</item>
+        <item>Jumpy</item>
+        <item>Mehari</item>
+        <item>Nemo</item>
+        <item>Saxo</item>
+        <item>SpaceTourer</item>
+        <item>Xantia</item>
+        <item>Xsara</item>
+        <item>ZX</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="corvette">
+        <item>Modello Auto</item>
+        <item>C6</item>
+        <item>Altri modelli</item>
+        <item>C1</item>
+        <item>C3</item>
+        <item>C4</item>
+        <item>C5</item>
+        <item>C7</item>
+        <item>Zr 1</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="dacia">
+        <item>Modello Auto</item>
+        <item>Dokker</item>
+        <item>Duster</item>
+        <item>Lodgy</item>
+        <item>Logan</item>
+        <item>Sandero</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="daewoo">
+        <item>Modello Auto</item>
+        <item>Kalos</item>
+        <item>Matiz</item>
+        <item>Tacuma</item>
+        <item>Truck Plus</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+
+    <string-array name="daf">
+        <item>Modello Auto</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="daihatsu">
+        <item>Modello Auto</item>
+        <item>Cuore</item>
+        <item>Feroza</item>
+        <item>Materia</item>
+        <item>Sirion</item>
+        <item>Terios</item>
+        <item>Trevis</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="daimler">
+        <item>Modello Auto</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="detomaso">
+        <item>Modello Auto</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+
+    <string-array name="dodge">
+        <item>Modello Auto</item>
+        <item>Caliber</item>
+        <item>Journey</item>
+        <item>Nitro</item>
+        <item>Viper</item>
+        <item>Challenger</item>
+        <item>Charger</item>
+        <item>Dakota</item>
+        <item>Grand Caravan</item>
+        <item>Magnum</item>
+        <item>Ram</item>
+        <item>Stealth</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+
+    <string-array name="dr">
+        <item>Modello Auto</item>
+        <item>dr 1</item>
+        <item>dr 2</item>
+        <item>dr 5</item>
+        <item>dr Evo5</item>
+        <item>dr Zero</item>
+        <item>dr4</item>
+        <item>dr6</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="ds">
+        <item>Modello Auto</item>
+        <item>DS3</item>
+        <item>DS4</item>
+        <item>DS5</item>
+        <item>DS7</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="ferrari">
+        <item>Modello Auto</item>
+        <item>208/308/328/GTO</item>
+        <item>348</item>
+        <item>360</item>
+        <item>456</item>
+        <item>458</item>
+        <item>488</item>
+        <item>512 BB</item>
+        <item>550</item>
+        <item>575M</item>
+        <item>599</item>
+        <item>612</item>
+        <item>California</item>
+        <item>Challenge Stradale</item>
+        <item>Dino 208 GT/4</item>
+        <item>F12</item>
+        <item>F355</item>
+        <item>F430</item>
+        <item>FF</item>
+        <item>GTC4 LUSSO</item>
+        <item>Mondial</item>
+        <item>Portofino</item>
+        <item>Testarossa/512 TR</item>
+        <item>246</item>
+        <item>250</item>
+        <item>330</item>
+        <item>365</item>
+        <item>400</item>
+        <item>Laferrari</item>
+        <item>Superamerica</item>
+        <item>208</item>
+        <item>308</item>
+        <item>328</item>
+        <item>512</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="fiat">
+        <item>Modello Auto</item>
+        <item>124 spider</item>
+        <item>126</item>
+        <item>127</item>
+        <item>131</item>
+        <item>132</item>
+        <item>500</item>
+        <item>500L</item>
+        <item>500X</item>
+        <item>600</item>
+        <item>900</item>
+        <item>Argenta</item>
+        <item>Barchetta</item>
+        <item>Bravo</item>
+        <item>Bravo/Brava</item>
+        <item>Campagnola</item>
+        <item>Cinquecento</item>
+        <item>Coupé</item>
+        <item>Croma</item>
+        <item>Doblò</item>
+        <item>Ducato</item>
+        <item>Fiorino</item>
+        <item>Freemont</item>
+        <item>Fullback</item>
+        <item>Grande Punto</item>
+        <item>Idea</item>
+        <item>Marea</item>
+        <item>Multipla</item>
+        <item>Palio</item>
+        <item>Panda</item>
+        <item>Punto</item>
+        <item>Punto Evo</item>
+        <item>QUBO</item>
+        <item>Regata</item>
+        <item>Ritmo</item>
+        <item>Scudo</item>
+        <item>Sedici</item>
+        <item>Seicento</item>
+        <item>Stilo</item>
+        <item>Strada</item>
+        <item>Talento</item>
+        <item>Tempra</item>
+        <item>Tipo</item>
+        <item>Tipo (2015--->)</item>
+        <item>Ulysse</item>
+        <item>Uno</item>
+        <item>X1/9</item>
+        <item>130</item>
+        <item>Dino</item>
+        <item>Brava</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="fisker">
+        <item>Modello Auto</item>
+        <item>Karma</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="ford">
+        <item>Modello Auto</item>
+        <item>B-Max</item>
+        <item>C-Max</item>
+        <item>C-Max Business</item>
+        <item>Cougar</item>
+        <item>Courier</item>
+        <item>EcoSport</item>
+        <item>Edge</item>
+        <item>Escort</item>
+        <item>Escort/Orion</item>
+        <item>Fiesta</item>
+        <item>Focus</item>
+        <item>Focus Business</item>
+        <item>Focus/Focus C-Max</item>
+        <item>Fusion</item>
+        <item>Galaxy</item>
+        <item>Galaxy Business</item>
+        <item>Ka</item>
+        <item>Ka Business</item>
+        <item>Ka+</item>
+        <item>Kuga</item>
+        <item>Kuga Business</item>
+        <item>Mondeo</item>
+        <item>Mondeo Business</item>
+        <item>Mustang</item>
+        <item>Puma</item>
+        <item>Ranger</item>
+        <item>S-Max</item>
+        <item>S-Max Business</item>
+        <item>Sierra</item>
+        <item>Tourneo Connect</item>
+        <item>Tourneo Courier</item>
+        <item>Tourneo Custom</item>
+        <item>Transit</item>
+        <item>Transit Connect</item>
+        <item>Transit Courier</item>
+        <item>Transit Custom</item>
+        <item>Transit/Tourneo/Bus</item>
+        <item>Aerostar</item>
+        <item>Capri</item>
+        <item>Crown</item>
+        <item>Econoline</item>
+        <item>Explorer</item>
+        <item>F 150</item>
+        <item>F 250</item>
+        <item>F 350</item>
+        <item>Granada</item>
+        <item>Grand C Max</item>
+        <item>Gt</item>
+        <item>Maverick</item>
+        <item>Mercury</item>
+        <item>Thunderbird</item>
+        <item>Taunus</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+
+    <string-array name="giotti">
+        <item>Modello Auto</item>
+        <item>Gladiator</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="great_wall_motor">
+        <item>Modello Auto</item>
+        <item>H6</item>
+        <item>Hover</item>
+        <item>Hover 5</item>
+        <item>Steed</item>
+        <item>Steed 6</item>
+        <item>Voleex C20R</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="honda">
+        <item>Modello Auto</item>
+        <item>Civic</item>
+        <item>CR-V</item>
+        <item>FR-V</item>
+        <item>HR-V</item>
+        <item>Integra</item>
+        <item>Jazz</item>
+        <item>NSX</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="hummer">
+        <item>Modello Auto</item>
+        <item>H1</item>
+        <item>H2</item>
+        <item>H3</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="hyundai">
+        <item>Modello Auto</item>
+        <item>Accent</item>
+        <item>Atos</item>
+        <item>Coupe</item>
+        <item>Galloper</item>
+        <item>Getz</item>
+        <item>H-1</item>
+        <item>H-100</item>
+        <item>H350</item>
+        <item>i10</item>
+        <item>i20</item>
+        <item>i30</item>
+        <item>i40</item>
+        <item>Ioniq</item>
+        <item>ix20</item>
+        <item>ix35</item>
+        <item>Kona</item>
+        <item>Matrix</item>
+        <item>Santa Fe</item>
+        <item>Terracan</item>
+        <item>Trajet</item>
+        <item>Tucson</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="infiniti">
+        <item>Modello Auto</item>
+        <item>EX</item>
+        <item>FX</item>
+        <item>Q30</item>
+        <item>Q50</item>
+        <item>Q60</item>
+        <item>Q70</item>
+        <item>QX30</item>
+        <item>QX70</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="innocenti">
+        <item>Modello Auto</item>
+        <item>Mille</item>
+        <item>Mini</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="isuzu">
+        <item>Modello Auto</item>
+        <item>D-Max</item>
+        <item>M21</item>
+        <item>Trooper</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="iveco">
+        <item>Modello Auto</item>
+        <item>Daily</item>
+        <item>Ecodaily</item>
+        <item>Massif</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="jaguar">
+        <item>Modello Auto</item>
+        <item>E-Pace</item>
+        <item>F-Pace</item>
+        <item>F-Type</item>
+        <item>S-Type</item>
+        <item>X-Type</item>
+        <item>XE</item>
+        <item>XF</item>
+        <item>XJ</item>
+        <item>XK</item>
+        <item>E Type</item>
+        <item>Mk Ii</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="jeep">
+        <item>Modello Auto</item>
+        <item>Cherokee</item>
+        <item>Commander</item>
+        <item>Compass</item>
+        <item>Compass 2ª serie</item>
+        <item>Grand Cherokee</item>
+        <item>Patriot</item>
+        <item>Renegade</item>
+        <item>Wrangler</item>
+        <item>Cj</item>
+        <item>Wagoneer</item>
+        <item>Willys</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+
+    <string-array name="kia">
+        <item>Modello Auto</item>
+        <item>Carens</item>
+        <item>Carnival</item>
+        <item>cee\'d</item>
+        <item>Cerato</item>
+        <item>K2500</item>
+        <item>Niro</item>
+        <item>Optima</item>
+        <item>Picanto</item>
+        <item>Rio</item>
+        <item>Sorento</item>
+        <item>Soul</item>
+        <item>Sportage</item>
+        <item>Stonic</item>
+        <item>Venga</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="lada">
+        <item>Modello Auto</item>
+        <item>Niva</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="lamborghini">
+        <item>Modello Auto</item>
+        <item>Aventador</item>
+        <item>Countach</item>
+        <item>Diablo</item>
+        <item>Gallardo</item>
+        <item>Huracán</item>
+        <item>Jalpa</item>
+        <item>Murciélago</item>
+        <item>Urraco</item>
+        <item>Lm</item>
+        <item>Miura</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="lancia">
+        <item>Modello Auto</item>
+        <item>Beta Montecarlo</item>
+        <item>Dedra</item>
+        <item>Delta</item>
+        <item>Delta S4</item>
+        <item>Flavia</item>
+        <item>Gamma</item>
+        <item>k</item>
+        <item>Lybra</item>
+        <item>Musa</item>
+        <item>Phedra</item>
+        <item>Thema</item>
+        <item>Thesis</item>
+        <item>Voyager</item>
+        <item>Y</item>
+        <item>Ypsilon</item>
+        <item>Z</item>
+        <item>Flaminia</item>
+        <item>Fulvia</item>
+        <item>Beta</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="landrover">
+        <item>Modello Auto</item>
+        <item>Defender</item>
+        <item>Discovery</item>
+        <item>Discovery Sport</item>
+        <item>Freelander</item>
+        <item>Range Rover</item>
+        <item>Range Rover Evoque</item>
+        <item>Range Rover Sport</item>
+        <item>Range Rover Velar</item>
+        <item>Serie I</item>
+        <item>Serie Ii</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="lexus">
+        <item>Modello Auto</item>
+        <item>CT</item>
+        <item>GS</item>
+        <item>IS</item>
+        <item>LS</item>
+        <item>NX</item>
+        <item>RC</item>
+        <item>RX</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="ligier">
+        <item>Modello Auto</item>
+        <item>JS50</item>
+        <item>X Too</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="lotus">
+        <item>Modello Auto</item>
+        <item>Elan</item>
+        <item>Elise</item>
+        <item>Esprit</item>
+        <item>Evora</item>
+        <item>Exige</item>
+        <item>Super Seven</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+
+    <string-array name="mahindra">
+        <item>Modello Auto</item>
+        <item>Bolero</item>
+        <item>Genio</item>
+        <item>Goa</item>
+        <item>Quanto</item>
+        <item>XUV500</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="maserati">
+        <item>Modello Auto</item>
+        <item>Coupé</item>
+        <item>Ghibli</item>
+        <item>Gran Turismo</item>
+        <item>GranCabrio</item>
+        <item>Gransport</item>
+        <item>GT</item>
+        <item>Levante</item>
+        <item>Quattroporte</item>
+        <item>Spyder</item>
+        <item>4200</item>
+        <item>Indy</item>
+        <item>Merak</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="maybach">
+        <item>Modello Auto</item>
+        <item>Maybach</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="mazda">
+        <item>Modello Auto</item>
+        <item>B-2500</item>
+        <item>CX-3</item>
+        <item>CX-5</item>
+        <item>CX-7</item>
+        <item>Mazda2</item>
+        <item>Mazda3</item>
+        <item>Mazda5</item>
+        <item>Mazda6</item>
+        <item>MX-5</item>
+        <item>Premacy</item>
+        <item>RX-8</item>
+        <item>E Series</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="mclaren">
+        <item>Modello Auto</item>
+        <item>540C</item>
+        <item>570GT</item>
+        <item>570S</item>
+        <item>650S</item>
+        <item>720S</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="mercedes">
+        <item>Modello Auto</item>
+        <item>190</item>
+        <item>Citan</item>
+        <item>Classe A</item>
+        <item>Classe B</item>
+        <item>Classe C</item>
+        <item>Classe CL</item>
+        <item>Classe CLA</item>
+        <item>Classe CLC</item>
+        <item>Classe CLK</item>
+        <item>Classe CLS</item>
+        <item>Classe E</item>
+        <item>Classe G</item>
+        <item>Classe GL</item>
+        <item>Classe GLA</item>
+        <item>Classe GLC</item>
+        <item>Classe GLE</item>
+        <item>Classe GLK</item>
+        <item>Classe GLS</item>
+        <item>Classe M</item>
+        <item>Classe R</item>
+        <item>Classe S</item>
+        <item>Classe SL</item>
+        <item>Classe SLC</item>
+        <item>Classe SLK</item>
+        <item>Classe V</item>
+        <item>Classe X</item>
+        <item>GT</item>
+        <item>Serie 200&#8211;280</item>
+        <item>Serie 200&#8211;320</item>
+        <item>Serie E</item>
+        <item>Serie S</item>
+        <item>Serie SEC</item>
+        <item>Serie SL</item>
+        <item>SLR</item>
+        <item>SLS</item>
+        <item>Sprinter</item>
+        <item>Viano</item>
+        <item>Vito</item>
+        <item>300</item>
+        <item>350</item>
+        <item>380</item>
+        <item>400</item>
+        <item>450</item>
+        <item>500</item>
+        <item>560</item>
+        <item>600</item>
+        <item>200</item>
+        <item>220</item>
+        <item>230</item>
+        <item>240</item>
+        <item>250</item>
+        <item>280</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="mg">
+        <item>Modello Auto</item>
+        <item>MGF</item>
+        <item>TF</item>
+        <item>ZR</item>
+        <item>Mga</item>
+        <item>Mgb</item>
+        <item>Midget</item>
+        <item>Td</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="microcar">
+        <item>Modello Auto</item>
+        <item>Dué</item>
+        <item>MGO</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="miniauto">
+        <item>Modello Auto</item>
+        <item>Minauto</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="mini">
+        <item>Modello Auto</item>
+        <item>Mini</item>
+        <item>Mini Cabrio</item>
+        <item>Mini Clubman</item>
+        <item>Mini Countryman</item>
+        <item>Mini Coupe</item>
+        <item>Mini Paceman</item>
+        <item>Mini Roadster</item>
+        <item>Altri modelli</item>
+        <item>1000</item>
+        <item>1300</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="mitsubishi">
+        <item>Modello Auto</item>
+        <item>3000 GT</item>
+        <item>ASX</item>
+        <item>Colt</item>
+        <item>Eclipse</item>
+        <item>Eclipse Cross</item>
+        <item>i-MiEV</item>
+        <item>L200</item>
+        <item>Lancer</item>
+        <item>Outlander</item>
+        <item>Pajero</item>
+        <item>Pajero Pinin</item>
+        <item>Pajero Sport</item>
+        <item>Space Star</item>
+        <item>Space Wagon</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="moke">
+        <item>Modello Auto</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="morgan">
+        <item>Modello Auto</item>
+        <item>4 4</item>
+        <item>Plus 4</item>
+        <item>Plus 8</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="mustang">
+        <item>Modello Auto</item>
+        <item>Mustang</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="nissan">
+        <item>Modello Auto</item>
+        <item>Almera</item>
+        <item>Atleon</item>
+        <item>Cabstar</item>
+        <item>Evalia</item>
+        <item>GT-R</item>
+        <item>Interstar</item>
+        <item>Juke</item>
+        <item>Kubistar</item>
+        <item>Leaf</item>
+        <item>Micra</item>
+        <item>Murano</item>
+        <item>Navara</item>
+        <item>Note</item>
+        <item>NP300</item>
+        <item>NV200</item>
+        <item>NV300</item>
+        <item>NV400</item>
+        <item>Pathfinder</item>
+        <item>Patrol</item>
+        <item>Patrol GR</item>
+        <item>Patrol/Safari</item>
+        <item>Pick-up</item>
+        <item>Pixo</item>
+        <item>Primastar</item>
+        <item>Primera</item>
+        <item>Pulsar</item>
+        <item>Qashqai</item>
+        <item>Serena</item>
+        <item>Terrano</item>
+        <item>Terrano II</item>
+        <item>Trade</item>
+        <item>Vanette</item>
+        <item>X-Trail</item>
+        <item>Altri modelli</item>
+        <item>King Cab</item>
+        <item>Pickup</item>
+        <item>Almera Tino</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="opel">
+        <item>Modello Auto</item>
+        <item>Adam</item>
+        <item>Agila</item>
+        <item>Antara</item>
+        <item>Ascona</item>
+        <item>Astra</item>
+        <item>Calibra</item>
+        <item>Cascada</item>
+        <item>Combo</item>
+        <item>Combo Tour</item>
+        <item>Corsa</item>
+        <item>Crossland X</item>
+        <item>Frontera</item>
+        <item>Grandland X</item>
+        <item>GT</item>
+        <item>Insignia</item>
+        <item>Kadett E</item>
+        <item>Karl</item>
+        <item>Manta</item>
+        <item>Meriva</item>
+        <item>Mokka</item>
+        <item>Movano</item>
+        <item>Omega</item>
+        <item>Tigra</item>
+        <item>Vectra</item>
+        <item>Vivaro</item>
+        <item>Zafira</item>
+        <item>Rekord</item>
+        <item>Kadett</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="peugeot">
+        <item>Modello Auto</item>
+        <item>1007</item>
+        <item>106</item>
+        <item>107</item>
+        <item>108</item>
+        <item>2008</item>
+        <item>205</item>
+        <item>206</item>
+        <item>207</item>
+        <item>208</item>
+        <item>3008</item>
+        <item>306</item>
+        <item>307</item>
+        <item>308</item>
+        <item>4007</item>
+        <item>405</item>
+        <item>407</item>
+        <item>5008</item>
+        <item>508</item>
+        <item>607</item>
+        <item>807</item>
+        <item>Bipper</item>
+        <item>Boxer</item>
+        <item>Expert</item>
+        <item>iOn</item>
+        <item>Partner</item>
+        <item>Ranch</item>
+        <item>RCZ</item>
+        <item>Traveller</item>
+        <item>404</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="piaggio">
+        <item>Modello Auto</item>
+        <item>Porter</item>
+        <item>Ape</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="pontiac">
+        <item>Modello Auto</item>
+        <item>Firebird</item>
+        <item>Grand Prix</item>
+        <item>Trans Am</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="porsche">
+        <item>Modello Auto</item>
+        <item>718</item>
+        <item>901/911/912</item>
+        <item>911 Carrera</item>
+        <item>924/944</item>
+        <item>928</item>
+        <item>968</item>
+        <item>Boxster</item>
+        <item>Carrera GT</item>
+        <item>Cayenne</item>
+        <item>Cayman</item>
+        <item>Macan</item>
+        <item>Panamera</item>
+        <item>356</item>
+        <item>914</item>
+        <item>964</item>
+        <item>991</item>
+        <item>993</item>
+        <item>996</item>
+        <item>997</item>
+        <item>911</item>
+        <item>912</item>
+        <item>924</item>
+        <item>944</item>
+        <item>911 Turbo S</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="renault">
+        <item>Modello Auto</item>
+        <item>11</item>
+        <item>19</item>
+        <item>4</item>
+        <item>5</item>
+        <item>Alaskan</item>
+        <item>Captur</item>
+        <item>Clio</item>
+        <item>Espace</item>
+        <item>Express</item>
+        <item>Grand Kangoo</item>
+        <item>Grand Scénic</item>
+        <item>Kadjar</item>
+        <item>Kangoo</item>
+        <item>Koleos</item>
+        <item>Laguna</item>
+        <item>Master</item>
+        <item>Modus</item>
+        <item>Mégane</item>
+        <item>Scenic</item>
+        <item>Talisman</item>
+        <item>Trafic</item>
+        <item>Twingo</item>
+        <item>Vel Satis</item>
+        <item>Wind</item>
+        <item>ZOE</item>
+        <item>Twizy</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="rolls_royce">
+        <item>Modello Auto</item>
+        <item>Corniche</item>
+        <item>Dawn</item>
+        <item>Ghost</item>
+        <item>Phantom</item>
+        <item>Silver Shadow</item>
+        <item>Wraith</item>
+        <item>Silver Cloud</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="rover">
+        <item>Modello Auto</item>
+        <item>200</item>
+        <item>25</item>
+        <item>45</item>
+        <item>75</item>
+        <item>Mini</item>
+        <item>Streetwise</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="saab">
+        <item>Modello Auto</item>
+        <item>9(–, &#8211;)3</item>
+        <item>9(–, &#8211;)5</item>
+        <item>900</item>
+        <item>9000</item>
+        <item>90</item>
+        <item>96</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="santana">
+        <item>Modello Auto</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="seat">
+        <item>Modello Auto</item>
+        <item>Alhambra</item>
+        <item>Altea</item>
+        <item>Arona</item>
+        <item>Arosa</item>
+        <item>Ateca</item>
+        <item>Cordoba</item>
+        <item>Exeo</item>
+        <item>Ibiza</item>
+        <item>Leon</item>
+        <item>Mii</item>
+        <item>Toledo</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="skoda">
+        <item>Modello Auto</item>
+        <item>Citigo</item>
+        <item>Fabia</item>
+        <item>Karoq</item>
+        <item>Kodiaq</item>
+        <item>Octavia</item>
+        <item>Octavia/4x4</item>
+        <item>Rapid</item>
+        <item>Rapid Spaceback</item>
+        <item>Roomster</item>
+        <item>Superb</item>
+        <item>Yeti</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="smart">
+        <item>Modello Auto</item>
+        <item>City-coupé/cabrio</item>
+        <item>Forfour</item>
+        <item>Fortwo</item>
+        <item>Roadster</item>
+        <item>Crossblade</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="ssangyong">
+        <item>Modello Auto</item>
+        <item>Actyon</item>
+        <item>Korando</item>
+        <item>Kyron</item>
+        <item>Rexton</item>
+        <item>Rexton W</item>
+        <item>Rodius</item>
+        <item>Tivoli</item>
+        <item>XLV</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="subaru">
+        <item>Modello Auto</item>
+        <item>BRZ</item>
+        <item>Forester</item>
+        <item>Impreza</item>
+        <item>Justy</item>
+        <item>Legacy</item>
+        <item>Levorg</item>
+        <item>Outback</item>
+        <item>Trezia</item>
+        <item>WRX</item>
+        <item>XV</item>
+        <item>Libero</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="suzuki">
+        <item>Modello Auto</item>
+        <item>Alto</item>
+        <item>Baleno</item>
+        <item>Celerio</item>
+        <item>Grand Vitara</item>
+        <item>Ignis</item>
+        <item>Jimny</item>
+        <item>Liana</item>
+        <item>S-Cross</item>
+        <item>Samurai</item>
+        <item>SJ400/Samurai</item>
+        <item>Splash</item>
+        <item>Swift</item>
+        <item>SX4</item>
+        <item>Vitara</item>
+        <item>Vitara/Sidekick</item>
+        <item>Wagon R+</item>
+        <item>Sj Samurai</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="talbot">
+        <item>Modello Auto</item>
+        <item>Samba</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="tata">
+        <item>Modello Auto</item>
+        <item>Aria</item>
+        <item>Indica</item>
+        <item>Indigo</item>
+        <item>Pick Up</item>
+        <item>Safari</item>
+        <item>Xenon</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="tesla">
+        <item>Modello Auto</item>
+        <item>Model S</item>
+        <item>Model X</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="toyota">
+        <item>Modello Auto</item>
+        <item>4 Runner/Hilux</item>
+        <item>Auris</item>
+        <item>Avensis</item>
+        <item>Aygo</item>
+        <item>C-HR</item>
+        <item>Celica</item>
+        <item>Corolla</item>
+        <item>GT86</item>
+        <item>Hilux</item>
+        <item>iQ</item>
+        <item>Land Cruiser</item>
+        <item>MR2</item>
+        <item>Prius</item>
+        <item>Proace</item>
+        <item>RAV 4</item>
+        <item>Urban Cruiser</item>
+        <item>Verso</item>
+        <item>Verso-S</item>
+        <item>Yaris</item>
+        <item>Fj</item>
+        <item>4 Runner</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="uaz">
+        <item>Modello Auto</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="vem">
+        <item>Modello Auto</item>
+        <item>Cover</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="volkswagen">
+        <item>Modello Auto</item>
+        <item>Amarok</item>
+        <item>Arteon</item>
+        <item>Bora</item>
+        <item>Caddy</item>
+        <item>California</item>
+        <item>Caravelle</item>
+        <item>CC</item>
+        <item>Corrado</item>
+        <item>Crafter</item>
+        <item>Eos</item>
+        <item>Fox</item>
+        <item>Golf</item>
+        <item>Jetta</item>
+        <item>LT</item>
+        <item>Lupo</item>
+        <item>Maggiolino</item>
+        <item>Multivan</item>
+        <item>New Beetle</item>
+        <item>Passat</item>
+        <item>Phaeton</item>
+        <item>Polo</item>
+        <item>Scirocco</item>
+        <item>Sharan</item>
+        <item>T-Roc</item>
+        <item>Tiguan</item>
+        <item>Tiguan Allspace</item>
+        <item>Touareg</item>
+        <item>Touran</item>
+        <item>Transporter</item>
+        <item>Up</item>
+        <item>181</item>
+        <item>Buggy</item>
+        <item>T1</item>
+        <item>T2</item>
+        <item>T3 Altri</item>
+        <item>T3 Caravelle</item>
+        <item>T3 Multivan</item>
+        <item>T4 California</item>
+        <item>T5 Altri</item>
+        <item>T5 California</item>
+        <item>T5 Caravelle</item>
+        <item>T5 Multivan</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="volvo">
+        <item>Modello Auto</item>
+        <item>240</item>
+        <item>C30</item>
+        <item>C70</item>
+        <item>S40</item>
+        <item>S60</item>
+        <item>S60 Cross Country</item>
+        <item>S80</item>
+        <item>S90</item>
+        <item>Serie 40</item>
+        <item>Serie 400</item>
+        <item>Serie 70</item>
+        <item>Serie 700</item>
+        <item>Serie 800</item>
+        <item>V40</item>
+        <item>V40 Cross Country</item>
+        <item>V50</item>
+        <item>V60</item>
+        <item>V60 Cross Country</item>
+        <item>V70</item>
+        <item>V70/XC70</item>
+        <item>V90</item>
+        <item>V90 Cross Country</item>
+        <item>XC40</item>
+        <item>XC60</item>
+        <item>XC70</item>
+        <item>XC90</item>
+        <item>245</item>
+        <item>Amazon</item>
+        <item>Altri modelli</item>
+    </string-array>
+
+    <string-array name="other">
+        <item>Modello Auto</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="unitaVelocita">
+        <item>Metric (Kilometers per Hour)</item>
+        <item>Imperial (Miles per Hour)</item>
+    </string-array>
+
+    <string-array name="unitaTemperatura">
+        <item>Celsius (°C)</item>
+        <item>Kelvin (K)</item>
+    </string-array>
+    <string name="first_select_car">Prima seleziona la tua auto dalla lista</string>
+    <string name="contactUs">Contattaci</string>
+    <string name="privacyPolicy">Informativa sulla Privacy</string>
+    <string name="privacyPolicyContent">Data di entrata in vigore: December 18, 2018  Umotic (\"noi\" o \"nostro\") gestisce il Umotic Car l\'applicazione per dispositivi mobili (in appresso il \"Servizio\").  Questa pagina vi informa delle nostre politiche riguardanti la raccolta, l\'uso e la divulgazione dei dati personali quando usate il nostro Servizio e le scelte che avete associato a quei dati. Modello di politica sulla privacy via FreePrivacyPolicy.  Utilizziamo i vostri dati per fornire e migliorare il Servizio. Utilizzando il Servizio, accettate la raccolta e l\'utilizzo delle informazioni in conformità con questa informativa. Se non diversamente definito nella presente Informativa sulla privacy, i termini utilizzati nella presente Informativa hanno la stessa valenza dei nostri Termini e condizioni.</string>
+    <string name="contactUsEmail">- Tramite e-mail: umoticdevelopers@gmail.com</string>
+    <string name="contactUsContent">In caso di domande sulla presente Informativa sulla privacy, si prega di contattarci:</string>
+    <string name="privacyChangesContent">Potremmo aggiornare periodicamente la nostra Informativa sulla privacy. Ti informeremo di eventuali modifiche pubblicando la nuova Informativa sulla privacy in questa pagina.  Vi informeremo via e-mail e / o un avviso di rilievo sul nostro Servizio, prima che la modifica diventi effettiva e aggiorneremo la \"data di validità\" nella parte superiore di questa Informativa sulla privacy.  Si consiglia di rivedere periodicamente la presente Informativa sulla privacy per eventuali modifiche. Le modifiche a tale informativa sulla privacy entrano in vigore nel momento in cui vengono pubblicate su questa pagina.</string>
+    <string name="privacyChanges">Modifiche alla presente informativa sulla privacy</string>
+    <string name="linksContent">OIl nostro servizio può contenere collegamenti ad altri siti non gestiti da noi. Cliccando su un link di terze parti, sarete indirizzati al sito di quella terza parte. Ti consigliamo vivamente di rivedere l\'Informativa sulla privacy di ogni sito che visiti.  Non abbiamo alcun controllo e non ci assumiamo alcuna responsabilità per il contenuto, le politiche sulla privacy o le pratiche di qualsiasi sito o servizio di terzi.</string>
+    <string name="links">Link ad altri siti</string>
+    <string name="serviceProvidersContent">Potremmo impiegare società e individui di terze parti per facilitare il nostro Servizio (\"Fornitori di servizi\"), per fornire il Servizio per nostro conto, per eseguire servizi relativi ai Servizi o per aiutarci ad analizzare come viene utilizzato il nostro Servizio.  Le terze parti hanno accesso ai vostri Dati personali solo per eseguire queste attività per nostro conto e sono obbligate a non rivelarle o utilizzarle per altri scopi.</string>
+    <string name="serviceProviders">Fornitori di servizi</string>
+    <string name="securityDataContent">La sicurezza dei vostri dati è importante per noi, ma ricordate che nessun metodo di trasmissione su Internet o metodo di archiviazione elettronica è sicuro al 100%. Pertanto, anche se adotteremo ogni mezzo commercialmente accettabile per proteggere i vostri Dati personali, non possiamo garantirne la sicurezza assoluta.</string>
+    <string name="securityData">Sicurezza dei dati</string>
+    <string name="disclosureData5">- Proteggere contro la responsabilità legale</string>
+    <string name="disclosureData4">- Proteggere la sicurezza personale degli utenti del Servizio o del pubblico</string>
+    <string name="disclosureData3">- Prevenire o investigare possibili illeciti in relazione al Servizio</string>
+    <string name="disclosureData2">- Proteggere e difendere i diritti o la proprietà di Umotic</string>
+    <string name="disclosureData1">- Rispettare un obbligo legale</string>
+    <string name="disclosureDataContent1">Umotic può divulgare i vostri Dati personali in buona fede, ritenendo che tale azione sia necessaria per:</string>
+    <string name="disclosureDataContent">Prescrizioni di legge</string>
+    <string name="disclosureData">Divulgazione di dati</string>
+    <string name="infoCollection">Raccolta e uso delle informazioni</string>
+    <string name="infoCollectionContent">Raccogliamo diversi tipi di informazioni per vari scopi, per fornire e migliorare il nostro servizio.</string>
+    <string name="typesOfData">Tipologie di Dati raccolti</string>
+    <string name="personalData">Dati personali</string>
+    <string name="personalDataContent">Durante l\'utilizzo del nostro Servizio, potremmo chiedervi di fornirci alcune informazioni di identificazione personale che possono essere utilizzate per contattarvi o identificarvi (\"Dati personali\"). Le informazioni di identificazione personale possono includere, ma non sono limitate a:</string>
+    <string name="personalDataEmail">- Indirizzo email</string>
+    <string name="personalDataNames">- Nome e cognome</string>
+    <string name="personalDataCookies">- Cookie e dati di utilizzo</string>
+    <string name="usageData">Dati di utilizzo</string>
+    <string name="usageDataContent">"Quando si accede al Servizio attraverso un dispositivo mobile, potremmo raccogliere automaticamente alcune informazioni, inclusi, ma non solo, il tipo di dispositivo mobile che si utilizza, l'ID univoco del dispositivo mobile, l'indirizzo IP del dispositivo mobile, il sistema operativo mobile, il tipo di browser Internet mobile che utilizzate, identificatori di dispositivo univoci e altri dati diagnostici (\"Dati di utilizzo\").  Tracciamento; dati dei cookie Utilizziamo cookie e tecnologie di tracciamento simili per tracciare l'attività sul nostro Servizio e conservare determinate informazioni.  I cookie sono file con una piccola quantità di dati che possono includere un identificatore univoco anonimo. I cookie vengono inviati al vostro browser da un sito web e memorizzati sul vostro dispositivo. Altre tecnologie di tracciamento utilizzate sono anche beacon, tag e script per raccogliere e tenere traccia delle informazioni e per migliorare e analizzare il nostro Servizio.  Potete chiedere al vostro browser di rifiutare tutti i cookie o di indicare quando viene inviato un cookie. Tuttavia, se non si accettano i cookie, potrebbe non essere possibile utilizzare alcune parti del nostro Servizio.  "</string>
+    <string name="trackingData">Tracciamento</string>
+    <string name="trackingDataContent">Utilizziamo cookie e tecnologie di tracciamento simili per tracciare l\'attività sul nostro Servizio e conservare determinate informazioni.  I cookie sono file con una piccola quantità di dati che possono includere un identificatore univoco anonimo. I cookie vengono inviati al vostro browser da un sito web e memorizzati sul vostro dispositivo. Altre tecnologie di tracciamento utilizzate sono anche beacon, tag e script per raccogliere e tenere traccia delle informazioni e per migliorare e analizzare il nostro Servizio.  Potete chiedere al vostro browser di rifiutare tutti i cookie o di indicare quando viene inviato un cookie. Tuttavia, se non si accettano i cookie, potrebbe non essere possibile utilizzare alcune parti del nostro Servizio.  Esempi di cookie che utilizziamo:</string>
+    <string name="trackingDataContent1">Utilizziamo cookie e tecnologie di tracciamento simili per tracciare l\'attività sul nostro Servizio e conservare determinate informazioni.</string>
+    <string name="trackingDataContent2">I cookie sono file con una piccola quantità di dati che possono includere un identificatore univoco anonimo. I cookie vengono inviati al vostro browser da un sito web e memorizzati sul vostro dispositivo. Altre tecnologie di tracciamento utilizzate sono anche beacon, tag e script per raccogliere e tenere traccia delle informazioni e per migliorare e analizzare il nostro Servizio.</string>
+    <string name="trackingDataContent3">Potete chiedere al vostro browser di rifiutare tutti i cookie o di indicare quando viene inviato un cookie. Tuttavia, se non si accettano i cookie, potrebbe non essere possibile utilizzare alcune parti del nostro Servizio.  Esempi di cookie che utilizziamo:</string>
+    <string name="trackingDataSession">Cookie di sessione. Utilizziamo i cookie di sessione per gestire il nostro servizio.</string>
+    <string name="trackingDataPreference">Cookie di preferenza. Utilizziamo i cookie di preferenza per ricordare le vostre preferenze e varie impostazioni.</string>
+    <string name="trackingDataSecurity">Cookie di sicurezza. Utilizziamo i cookie di sicurezza per motivi di sicurezza.</string>
+    <string name="useOfData">Uso dei dati</string>
+    <string name="useOfDataContent">Umotic utilizza i dati raccolti per vari scopi:</string>
+    <string name="useOfData1">- Per fornire e mantenere il nostro Servizio</string>
+    <string name="useOfData2">- Per comunicare agli utenti variazioni apportate al servizio che offriamo</string>
+    <string name="useOfData3">- Per permettere agli utenti di fruire, a propria discrezione, di funzioni interattive del nostro servizio</string>
+    <string name="useOfData4">- Per fornire un servizio ai clienti</string>
+    <string name="useOfData5">- Per raccogliere analisi o informazioni preziose in modo da poter migliorare il nostro Servizio</string>
+    <string name="useOfData6">- Per monitorare l\'utilizzo del nostro Servizio</string>
+    <string name="useOfData7">- Per rilevare, prevenire e affrontare problemi tecnici</string>
+    <string name="trasferData">Trasferimento dei dati</string>
+    <string name="trasferDataContent">Le vostre informazioni, compresi i Dati personali, possono essere trasferite a - e mantenute su - computer situati al di fuori del vostro stato, provincia, nazione o altra giurisdizione governativa dove le leggi sulla protezione dei dati possono essere diverse da quelle della vostra giurisdizione.  Se ci si trova al di fuori di Italy e si sceglie di fornire informazioni a noi, si ricorda che trasferiamo i dati, compresi i dati personali, in Italy e li elaboriamo lì.  Il vostro consenso alla presente Informativa sulla privacy seguito dall\'invio di tali informazioni rappresenta il vostro consenso al trasferimento.  Umotic adotterà tutte le misure ragionevolmente necessarie per garantire che i vostri dati siano trattati in modo sicuro e in conformità con la presente Informativa sulla privacy e nessun trasferimento dei vostri Dati Personali sarà effettuato a un\'organizzazione o a un paese a meno che non vi siano controlli adeguati dei vostri dati e altre informazioni personali.</string>
+    <string name="thanks">Grazie per aver scelto la nostra applicazione!</string>
+    <string name="version">La versione corrente è la: 1.0.0</string>
+    <string name="describeProblem">Descrivi il tuo problema</string>
+    <string name="sendReport">Invia report</string>
+    <string name="screenshots">Aggiungi screenshot (facoltativo):</string>
+    <string name="drivingStyle">Il mio stile di guida:</string>
+    <string name="malfunctions">Malfunzionamenti veicolo</string>
+    <string name="schedules">I miei eventi</string>
+    <string name="averageSpeed">Velocità media</string>
+    <string name="averageDistance">Distanza percorsa</string>
+    <string name="averageConsumption">Consumo carburante medio</string>
+    <string name="engineMalfunction">Malfunzionamento motore</string>
+    <string name="brakeMalfunction">Malfunzionamento  ai freni</string>
+    <string name="electricMalfunction">Malfunzionamento elettrico</string>
+    <string name="oxigenMalfunction">Malfunzionamento sistema ossigenazione</string>
+    <string name="addEvent">Aggiungi evento</string>
+    <string name="yourEvent">I tuoi eventi</string>
+    <string name="addTitle">Aggiungi un titolo</string>
+    <string name="date">Data</string>
+    <string name="selectedCar">"Auto selezionata: "</string>
+    <string name="insertInfo">Riempi i seguenti campi</string>
+    <string name="startJourney">Comincia un nuovo viaggio</string>
+    <string name="mex_interrupt_journey">Interromperai il viaggio e tornerai alla home.</string>
+    <string name="exit">Chiuderai l\'app</string>
+    <string name="fuel_real">Carburante</string>
+    <string name="event_validate">Riempi tutti i campi</string>
+    <string name="infoDevice">"Invia informazioni sul dispositivo "</string>
+    <string name="real_title">Stile di guida del viaggio:</string>
+
+
+</resources>

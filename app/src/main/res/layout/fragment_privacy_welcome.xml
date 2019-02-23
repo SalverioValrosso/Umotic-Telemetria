@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.Design.NoActionBar"
+    android:background="@color/background"
+    tools:context="org.altervista.umotic.umotic.PrivacyWelcomeFragment"
+    android:id="@+id/containerS">
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:elevation="8dp"
+        android:visibility="gone"
+        android:background="@color/accent"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="createAccount"
+        app:srcCompat="@drawable/ic_baseline_arrow_forward_24px" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="25dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButtonDeny"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:buttonTint="@color/black"
+            android:text="@string/deny" />
+
+        <RadioButton
+            android:id="@+id/radioButtonAccept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:buttonTint="@color/black"
+            android:text="@string/accept" />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="80dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dp"
+        android:paddingRight="8dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingStart="4dp"
+            android:paddingEnd="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/privacyPolicyTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/privacyPolicy"
+                    android:textAppearance="@android:style/TextAppearance.Holo.Large"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/PrivacyPolicyContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:text="@string/privacyPolicyContent"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/InformationCollection"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    android:text="@string/infoCollection"
+                    android:textAppearance="@android:style/TextAppearance.Holo.Large"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/InformationCollectionContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:text="@string/infoCollectionContent"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/TypesData"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    android:text="@string/typesOfData"
+                    android:textAppearance="@android:style/TextAppearance.Holo.Large"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/PersonalData"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:text="@string/personalData"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/PersonalDataContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:text="@string/personalDataContent"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/EmailPrivacy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:text="@string/personalDataEmail"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/NamePrivacy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/personalDataNames"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/CookiesPrivacy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/personalDataCookies"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/UsageData"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    android:text="@string/usageData"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/UsageDataContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:text="@string/usageDataContent"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/TrackingData"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    android:text="@string/trackingData"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:text="@string/trackingDataContent"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:text="@string/trackingDataContent1"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:text="@string/trackingDataContent2"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:text="@string/trackingDataContent3"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:text="@string/trackingDataSession"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/trackingDataPreference"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/trackingDataSecurity"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    android:text="@string/useOfData"
+                    android:textAppearance="@android:style/TextAppearance.Holo.Large"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:text="@string/useOfData1"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:text="@string/useOfData1"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/useOfData2"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textView28"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/useOfData3"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/useOfData4"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/useOfData5"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/useOfData6"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/useOfData7"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    android:text="@string/trasferData"
+                    android:textAppearance="@android:style/TextAppearance.Holo.Large"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textView34"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:text="@string/trasferDataContent"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    android:text="@string/disclosureData"
+                    android:textAppearance="@android:style/TextAppearance.Holo.Large"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textView36"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    android:text="@string/disclosureDataContent"
+                    android:textAppearance="@android:style/TextAppearance.Holo.Medium"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textView37"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:text="@string/disclosureDataContent1"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textView38"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:text="@string/disclosureData1"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textView39"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/disclosureData2"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/disclosureData3"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textView41"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/disclosureData4"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textView42"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/disclosureData5"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    android:text="@string/securityData"
+                    android:textAppearance="@android:style/TextAppearance.Holo.Large"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textView44"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:text="@string/securityDataContent"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textView45"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    android:text="@string/serviceProviders"
+                    android:textAppearance="@android:style/TextAppearance.Holo.Large"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textView46"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:text="@string/serviceProvidersContent"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textView47"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    android:text="@string/links"
+                    android:textAppearance="@android:style/TextAppearance.Holo.Large"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textView48"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:text="@string/linksContent"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textView49"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    android:text="@string/privacyChanges"
+                    android:textAppearance="@android:style/TextAppearance.Holo.Large"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textView50"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:text="@string/privacyChangesContent"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textView51"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    android:text="@string/contactUs"
+                    android:textAppearance="@android:style/TextAppearance.Holo.Large"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textView54"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:text="@string/contactUsContent"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textView55"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="@string/contactUsEmail"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</FrameLayout>

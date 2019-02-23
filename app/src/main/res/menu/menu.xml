@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/assistent"
+        android:tooltipText="@string/assistent"
+        android:title="@string/assistent"
+        android:onClick="assistentDialog"
+        android:icon="@drawable/ic_assistent"
+        app:showAsAction="always" />
+
+
+</menu>

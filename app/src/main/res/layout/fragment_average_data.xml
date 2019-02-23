@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AverageDataFragment"
+    android:background="@color/background">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/swiperefresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/drivingStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="157dp"
+                    app:cardMaxElevation="2dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="8dp"
+                    android:clickable="true"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="2dp">
+
+                    <View
+                        android:id="@+id/viewEngTemp"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="43dp"
+                        android:background="@color/primary"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/engineTempText"
+                        app:layout_constraintVertical_bias="0.0" />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_horizontal"
+                        android:text="@string/drivingStyle"
+                        android:textAppearance="@android:style/TextAppearance.Holo.Medium"
+                        android:textColor="@color/black" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginRight="16dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="-20dp"
+                            android:layout_marginBottom="2dp"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/averageSpeed"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/averageSpeed"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:id="@+id/textView12"
+                                android:layout_width="2dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="22dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black" />
+
+                            <ImageView
+                                android:id="@+id/alert_icon"
+                                android:layout_width="1dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="-20dp"
+                                android:layout_marginRight="9dp"
+                                android:layout_weight="0.3"
+                                android:src="@drawable/alert_icon_g" />
+
+                            <ProgressBar
+                                android:id="@+id/progressBar"
+                                android:indeterminateTint="@color/accent"
+                                style="?android:attr/progressBarStyle"
+                                android:layout_width="22dp"
+                                android:layout_height="22dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="22dp"
+                                android:layout_weight="0.1"
+                                android:padding="1dp"
+
+                                />
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="2dp"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/averageFuel"
+                                android:layout_width="92dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/averageConsumption"
+                                android:textColor="@color/black" />
+
+
+                            <TextView
+                                android:id="@+id/textView14"
+                                android:layout_width="2dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="22dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black" />
+
+                            <ImageView
+                                android:id="@+id/alert_icon3"
+                                android:layout_width="1dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="-20dp"
+                                android:layout_marginRight="9dp"
+                                android:layout_weight="0.3"
+                                android:src="@drawable/alert_icon_g" />
+
+                            <ProgressBar
+                                android:id="@+id/progressBar1"
+
+                                android:indeterminateTint="@color/accent"
+                                style="?android:attr/progressBarStyle"
+                                android:layout_width="22dp"
+                                android:layout_height="22dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="2dp"
+                                android:layout_weight="0.1"
+                                android:padding="1dp"/>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/averageDistance"
+                                android:layout_width="92dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/averageDistance"
+                                android:textColor="@color/black" />
+
+
+                            <TextView
+                                android:id="@+id/textView13"
+                                android:layout_width="2dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="22dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black" />
+
+                            <ImageView
+                                android:id="@+id/distance_icon"
+                                android:layout_width="1dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="-20dp"
+                                android:layout_marginRight="9dp"
+                                android:layout_weight="0.3"
+                                android:src="@drawable/alert_icon_g" />
+
+                            <ProgressBar
+                                android:id="@+id/progressBar2"
+                                android:indeterminateTint="@color/accent"
+                                style="?android:attr/progressBarStyle"
+                                android:layout_width="22dp"
+                                android:layout_height="22dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="2dp"
+                                android:layout_weight="0.1"
+                                android:padding="1dp"/>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/drivingStyle2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="157dp"
+                    android:layout_rowWeight="1"
+                    app:cardMaxElevation="2dp"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="8dp"
+                    android:clickable="true"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="2dp">
+
+                    <View
+                        android:id="@+id/view2"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="43dp"
+                        android:background="@color/primary"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/engineTempText"
+                        app:layout_constraintVertical_bias="0.0" />
+
+                    <TextView
+                        android:id="@+id/textschedule"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_horizontal"
+                        android:text="@string/malfunctions"
+                        android:textAppearance="@android:style/TextAppearance.Holo.Medium"
+                        android:textColor="@color/black" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginRight="8dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginRight="8dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical"/>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/drivingStyle3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="232dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="8dp"
+                    android:clickable="true"
+                    app:cardCornerRadius="8dp"
+                    app:cardMaxElevation="2dp"
+                    app:cardElevation="2dp">
+
+                    <View
+                        android:id="@+id/viewEngTemp2"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="43dp"
+                        android:background="@color/primary"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/engineTempText"
+                        app:layout_constraintVertical_bias="0.0" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="126dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginRight="8dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginRight="8dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <android.support.v7.widget.RecyclerView
+                                android:id="@+id/recycleEvents"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textalert"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_horizontal"
+                        android:text="@string/schedules"
+                        android:textAppearance="@android:style/TextAppearance.Holo.Medium"
+                        android:textColor="@color/black" />
+
+                    <Button
+                        android:id="@+id/button3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|right"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="@drawable/roundedbutton"
+                        android:onClick="yourEvent"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="8dp"
+                        android:text="@string/addEvent"
+                        android:textColor="@color/white" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginRight="8dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="8dp"
+                            android:layout_weight="1"
+                            android:orientation="horizontal" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <Button
+                    android:id="@+id/btn_start"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/roundedbutton"
+                    android:elevation="4dp"
+                    android:text="@string/startJourney"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+        </ScrollView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</FrameLayout>
